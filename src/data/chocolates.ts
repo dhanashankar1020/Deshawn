@@ -1,3 +1,12 @@
+import heroImg from '../assets/images/hero_deshawn_chocolate_1791195623276.jpg';
+import darkImg from '../assets/images/prod_dark_chocolate_1791195643832.jpg';
+import milkImg from '../assets/images/prod_milk_chocolate_1791195662320.jpg';
+import hazelnutImg from '../assets/images/prod_hazelnut_chocolate_1791195679337.jpg';
+import caramelImg from '../assets/images/prod_caramel_chocolate_1791195694111.jpg';
+import almondImg from '../assets/images/prod_almond_chocolate_1791195706892.jpg';
+import giftBoxImg from '../assets/images/prod_gift_box_1791195718657.jpg';
+import lifestyleImg from '../assets/images/ad_lifestyle_tasting_1791195730497.jpg';
+
 export type ProductCategory = 'Dark Chocolate' | 'Milk Chocolate' | 'Nuts & Praline' | 'Caramel & Sea Salt' | 'Gift Boxes';
 
 export interface NutritionInfo {
@@ -81,14 +90,14 @@ export interface OrderRecord {
 }
 
 export const IMAGES = {
-  hero: '/src/assets/images/hero_deshawn_chocolate_1791195623276.jpg',
-  dark: '/src/assets/images/prod_dark_chocolate_1791195643832.jpg',
-  milk: '/src/assets/images/prod_milk_chocolate_1791195662320.jpg',
-  hazelnut: '/src/assets/images/prod_hazelnut_chocolate_1791195679337.jpg',
-  caramel: '/src/assets/images/prod_caramel_chocolate_1791195694111.jpg',
-  almond: '/src/assets/images/prod_almond_chocolate_1791195706892.jpg',
-  giftBox: '/src/assets/images/prod_gift_box_1791195718657.jpg',
-  lifestyle: '/src/assets/images/ad_lifestyle_tasting_1791195730497.jpg',
+  hero: heroImg,
+  dark: darkImg,
+  milk: milkImg,
+  hazelnut: hazelnutImg,
+  caramel: caramelImg,
+  almond: almondImg,
+  giftBox: giftBoxImg,
+  lifestyle: lifestyleImg,
 };
 
 export const PRODUCTS: ChocolateProduct[] = [
