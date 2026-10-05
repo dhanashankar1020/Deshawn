@@ -1,0 +1,6 @@
+{
+  "name": "DESHAWN Chocolates",
+  "description": "Luxury handcrafted artisanal chocolates crafted with single-origin cocoa, roasted Piedmont hazelnuts, and pure ingredients.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
